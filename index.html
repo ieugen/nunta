@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>
@@ -6,166 +6,450 @@
 <!--[if IE 8]>
 <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Eugen și Bianca se iau!</title>
-    <meta name="description" content="Vă invităm la nunta noastră!">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Eugen și Bianca se iau">
-    <meta property="og:description" content="Vă invităm la nunta noastră.">
-    <meta property="og:image" content="https://wedding.ramswaroop.me/img/hero-min.jpg">
-    <meta property="og:type" content="website">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="description" content="Vă invităm la nunta noastră!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content="Eugen și Bianca se iau" />
+    <meta property="og:description" content="Vă invităm la nunta noastră." />
+    <meta
+      property="og:image"
+      content="https://wedding.ramswaroop.me/img/hero-min.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
 
     <script>
-        // load css files from CDN if local node_modules fail
-        function loadCssFromCDN(css) {
-            // create new link tag
-            const link = document.createElement('link');
-            if (css === 'animate.css') {
-                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
-            } else if (css === 'font-awesome.css') {
-                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
-            }
-            link.rel = 'stylesheet';
-
-            // add link tag to head section
-            document.getElementsByTagName('head')[0].appendChild(link);
+      // load css files from CDN if local node_modules fail
+      function loadCssFromCDN(css) {
+        // create new link tag
+        const link = document.createElement("link");
+        if (css === "animate.css") {
+          link.href =
+            "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css";
+        } else if (css === "font-awesome.css") {
+          link.href =
+            "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
         }
+        link.rel = "stylesheet";
 
-        // load js files from CDN if local node_modules fail
-        function loadJsFromCDN(js) {
-            if (js === 'waypoints.js') {
-                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
-            } else if (js === 'jquery.js') {
-                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
-            }
+        // add link tag to head section
+        document.getElementsByTagName("head")[0].appendChild(link);
+      }
+
+      // load js files from CDN if local node_modules fail
+      function loadJsFromCDN(js) {
+        if (js === "waypoints.js") {
+          document.write(
+            '<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>'
+          );
+        } else if (js === "jquery.js") {
+          document.write(
+            '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>'
+          );
         }
+      }
     </script>
 
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="css/flexslider.css">
-    <link rel="stylesheet" href="css/styles.min.css">
-    <link rel="stylesheet" href="css/queries.css">
-    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/animate.css/animate.min.css"
+      onerror="loadCssFromCDN('animate.css')"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+      onerror="loadCssFromCDN('font-awesome.css')"
+    />
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
-<body id="top">
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
-<![endif]-->
-<section class="hero">
-    <section class="navigation fixed">
+  </head>
+  <body id="top">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+    <section class="hero">
+      <section class="navigation fixed">
         <header>
-            <div class="header-content">
-                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
-                <div class="header-nav">
-                    <nav>
-                        <ul class="primary-nav">
-                            <li><a href="#intro">Cum ne-am cunoscut</a></li>
-                            <li><a href="#events">Program eveniment</a></li>
-                            <!-- <li><a href="#instagram">Instagram</a></li> -->
-                            <li><a href="#eng-pics">Poze cuplu</a></li>
-                            <!-- <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li> -->
-                        </ul>
-                        <ul class="member-actions">
-                            <li><a href="#map" class="login">Locație</a></li>
-                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="navicon">
-                    <a class="nav-toggle" href="#"><span></span></a>
-                </div>
+          <div class="header-content">
+            <div class="logo">
+              <a href="#"><img src="img/logo.png" alt="Logo" /></a>
             </div>
+            <div class="header-nav">
+              <nav>
+                <ul class="primary-nav">
+                  <li><a href="#intro">Cum ne-am cunoscut</a></li>
+                  <li><a href="#events">Program eveniment</a></li>
+                  <!-- <li><a href="#instagram">Instagram</a></li> -->
+                  <li><a href="#eng-pics">Poze cuplu</a></li>
+                  <!-- <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li> -->
+                </ul>
+                <ul class="member-actions">
+                  <li><a href="#map" class="login">Locație</a></li>
+                  <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="navicon">
+              <a class="nav-toggle" href="#"><span></span></a>
+            </div>
+          </div>
         </header>
+      </section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="hero-content text-center">
+              <img src="img/logo-lg.png" alt="Eugen \u2764\uFE0F Bianca" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 hidden-xs"></div>
+          <div class="col-sm-4 hidden-xs text-center">
+            <a href="#rsvp" class="btn btn-accent btn-large rsvp-btn">RSVP</a>
+          </div>
+          <div class="col-sm-4 hidden-xs"></div>
+        </div>
+      </div>
+      <div class="down-arrow floating-arrow">
+        <a href="#invitation"><i class="fa fa-angle-down"></i></a>
+      </div>
     </section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="hero-content text-center">
-                    <img src="img/logo-lg.png" alt="Eugen \u2764\uFE0F Bianca">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 hidden-xs"></div>
-            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
-                                                           class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
-            <div class="col-sm-4 hidden-xs"></div>
-        </div>
-    </div>
-    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
-</section>
 
-<section id="invitation" class="section-padding">
-    <div class="container">
+    <section id="invitation" class="section-padding">
+      <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h3>Ne căsătorim</h3>
-                <p>Pe 8 iulie 2023 și ne dorim să fii alături de noi în acestă zi importantă</p>
-                <!-- <div class="share-bar"></div> -->
-            </div>
-            <div class="col-md-12 text-center invitatie"><img src="img/invitație.digitală.jpg"></div>
+          <div class="col-md-12 text-center">
+            <h3>Ne căsătorim</h3>
+            <p>
+              Pe 8 iulie 2023 și ne dorim să fii alături de noi în acestă zi
+              importantă
+            </p>
+            <!-- <div class="share-bar"></div> -->
+          </div>
+          <div class="col-md-12 text-center invitatie">
+            <img src="img/invitație.digitală.jpg" />
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="intro">
-    <div class="container">
+    <section id="intro">
+      <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h3 class="header">Cum ne-am cunoscut</h3>
-            </div>
+          <div class="col-md-12 text-center">
+            <h3 class="header">Cum ne-am cunoscut</h3>
+          </div>
         </div>
         <div class="row">
-            <!-- <div class="col-md-3 hidden-sm hidden-xs"><img src="img/IMG_2317.jpg" class="wp1"></div> -->
-            <div class="col-md-6 col-md-offset-3">
-                <p>
-                    Am văzut-o prima dată pe Bianca la o petrecere de dans latino, în vara anului 2021.
-                    Era al doilea an de pandemie și eu eram mutat de aproape un an în Brașov.
-                    Știam puțini oameni și am decis să reîncep cursurile de dans pentru că aveam chef să ies din casă.
-                </p>
-                <p>
-                    Așa am ajuns într-o vineri seară la petrecere în Adaggio.
-                </p>
-                <p>
-                    A fost prima ieșire la dans in Brașov. Clubul era plin și îmi făceam greu loc printre dansatori.
-                    Bianca stătea pe canapeaua din sala de dans (aceea cu arcuri stricate 🙂); m-am apropiat și mi-a făcut loc să stau lângă ea.
-                    Mi-a plăcut imediat! Am schimbat două trei vorbe, după care am dansat o bachata.
-                    A mai durat câteva săptămâni până cănd i-am cerut numărul de telefon și am invitat-o în oraș.
-                </p>
-                <p>Restul este istorie :)</p>
-            </div>
-            <!-- <div class="col-md-3 hidden-sm hidden-xs"><img src="img/DSD_0214.jpg" class="wp2"></div> -->
+          <!-- <div class="col-md-3 hidden-sm hidden-xs"><img src="img/IMG_2317.jpg" class="wp1"></div> -->
+          <div class="col-md-6 col-md-offset-3">
+            <p>
+              Am văzut-o prima dată pe Bianca la o petrecere de dans latino, în
+              vara anului 2021. Era al doilea an de pandemie și eu eram mutat de
+              aproape un an în Brașov. Știam puțini oameni și am decis să
+              reîncep cursurile de dans pentru că aveam chef să ies din casă.
+            </p>
+            <p>Așa am ajuns într-o vineri seară la petrecere în Adaggio.</p>
+            <p>
+              A fost prima ieșire la dans in Brașov. Clubul era plin și îmi
+              făceam greu loc printre dansatori. Bianca stătea pe canapeaua din
+              sala de dans (aceea cu arcuri stricate 🙂); m-am apropiat și mi-a
+              făcut loc să stau lângă ea. Mi-a plăcut imediat! Am schimbat două
+              trei vorbe, după care am dansat o bachata. A mai durat câteva
+              săptămâni până cănd i-am cerut numărul de telefon și am invitat-o
+              în oraș.
+            </p>
+            <p>Restul este istorie :)</p>
+          </div>
+          <!-- <div class="col-md-3 hidden-sm hidden-xs"><img src="img/DSD_0214.jpg" class="wp2"></div> -->
         </div>
         <!-- <div class="row">
             <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/IMG_2317.jpg" class="wp8"></div>
             <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/DSD_0214.jpg" class="wp9"></div>
         </div> -->
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="events section-padding" id="events">
-    <div class="container">
+    <section class="events section-padding" id="events">
+      <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h3 class="header">Program eveniment</h3>
-                <p><strong>8 Iulie</strong></p>
-            </div>
+          <div class="col-md-12">
+            <h3 class="header">Program eveniment</h3>
+            <p><strong>8 Iulie</strong></p>
+          </div>
         </div>
         <div class="row">
+          <div class="col-md-12 table-responsive">
+            <table class="table table-striped table-condensed">
+              <tr class="ro2">
+                <td><strong>De la ora</strong></td>
+                <td><strong>La ora</strong></td>
+                <td><strong>Activitate</strong></td>
+                <td><strong>Detalii</strong></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>11:00</p>
+                </td>
+                <td>
+                  <p>12:15</p>
+                </td>
+                <td>
+                  <p>Pregatirea miresei cu domnișoarele de onoare</p>
+                </td>
+                <td>În cameră, la locația evenimentului.</td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>11:00</p>
+                </td>
+                <td>
+                  <p>12:15</p>
+                </td>
+                <td>
+                  <p>Pregătirea mirelui cu cavaleri de onoare</p>
+                </td>
+                <td>În cameră, la locația evenimentului.</td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>12:15</p>
+                </td>
+                <td>
+                  <p>12:30</p>
+                </td>
+                <td>
+                  <p>Luarea miresei și drumul până în grădină</p>
+                </td>
+                <td><p>Mergem cu alai în grădina restaurentului.</p></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>12:30</p>
+                </td>
+                <td>
+                  <p>12:45</p>
+                </td>
+                <td>
+                  <p>Cununia civila</p>
+                </td>
+                <td><p>Evenimentul pentru care ne-am adunat, partea 1.</p></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>12:45</p>
+                </td>
+                <td>
+                  <p>13:00</p>
+                </td>
+                <td>
+                  <p>Servire sampanie si bruschete</p>
+                </td>
+                <td><p>Șampania merge mai bine cu ceva gustos.</p></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>13:00</p>
+                </td>
+                <td>
+                  <p>13:15</p>
+                </td>
+                <td>
+                  <p>Poze in gradina cu mirii</p>
+                </td>
+                <td><p>Dovada că am fost acolo :)</p></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>13:15</p>
+                </td>
+                <td>
+                  <p>13:50</p>
+                </td>
+                <td>
+                  <p>Poze miri pe deal</p>
+                </td>
+                <td>
+                  <p>
+                    Miri, nași, domnișoare și cavaleri de onaoare. Invitații se
+                    pot relaxa și pregăti pentru ce urmează.
+                  </p>
+                </td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>14:00</p>
+                </td>
+                <td>
+                  <p>14:50</p>
+                </td>
+                <td>
+                  <p>Cununia religioasa</p>
+                </td>
+                <td><p>Evenimentul pentru care ne-am adunat, partea 2.</p></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>15:00</p>
+                </td>
+                <td>
+                  <p>15:10</p>
+                </td>
+                <td>
+                  <p>Adunarea invitaților în sală</p>
+                </td>
+                <td>
+                  <p>
+                    Ne pregătim de petrecere, invitații sunt rugați să se așeze
+                    la masă.
+                  </p>
+                </td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>15:10</p>
+                </td>
+                <td>
+                  <p>15:10</p>
+                </td>
+                <td>
+                  <p>Intrarea mirilor</p>
+                </td>
+                <td></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>15:20</p>
+                </td>
+                <td>
+                  <p>15:30</p>
+                </td>
+                <td>
+                  <p>Servirea aperitivului</p>
+                </td>
+                <td>După atâtea felicitări avem nevoie de puțină energie.</td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>16:10</p>
+                </td>
+                <td>
+                  <p>16:15</p>
+                </td>
+                <td>
+                  <p>Dansul mirilor</p>
+                </td>
+                <td>Dăm startul petrecerii pe ringul de dans.</td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>17:30</p>
+                </td>
+                <td>
+                  <p>17:30</p>
+                </td>
+                <td>
+                  <p>Servirea pestelui</p>
+                </td>
+                <td>
+                  Mai multă energie! (deșii unii ar spune că peștele nu ține de
+                  foame :) )
+                </td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>17:40</p>
+                </td>
+                <td>
+                  <p>17:40</p>
+                </td>
+                <td>
+                  <p>Aranjare si servire candy bar</p>
+                </td>
+                <td>După atâtea felicitări avem nevoie de puțină energie.</td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>19:30</p>
+                </td>
+                <td>
+                  <p>19:30</p>
+                </td>
+                <td>
+                  <p>Servire sarmale</p>
+                </td>
+                <td><p>Vă plac sau nu, noi le avem.</p></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>21:30</p>
+                </td>
+                <td>
+                  <p>21:30</p>
+                </td>
+                <td>
+                  <p>Servire friptura</p>
+                </td>
+                <td><p>Stați liniștiți avem și pentru vegetarieni ceva.</p></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>23:30</p>
+                </td>
+                <td>
+                  <p>00:00</p>
+                </td>
+                <td>
+                  <p>Tortul</p>
+                </td>
+                <td><p>Pentru unii acesta este momentul mult așteptat.</p></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>00:00</p>
+                </td>
+                <td>
+                  <p>01:00</p>
+                </td>
+                <td>
+                  <p>Aruncare buchet si dezgatit mireasa</p>
+                </td>
+                <td><p>Fetele sunt rugate să iasă în față.</p></td>
+              </tr>
+              <tr class="ro2">
+                <td>
+                  <p>01:00</p>
+                </td>
+                <td><p>??:??</p></td>
+                <td>
+                  <p>Petrecere cat ne tin picioarele</p>
+                </td>
+                <td><p></p></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!--div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
                 <div class="wp3">
                     <h5>Cununia civilă <span class="time">~ 13:00 - 13:20</span></h5>
@@ -213,67 +497,15 @@
                     De asemenea, dacă aveți nevoi culinare speciale sau alergii, vă rog să ne spuneți.
                 </p>
             </div>
-        </div>
-        <!-- <div class="row section-padding">
-            <div class="col-md-4 col-md-offset-4 text-center">
-                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
-                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
-                </a>
-            </div>
-        </div> -->
+        </div-->
         <!--<div class="row">
             <div class="col-xs-12 section-border section-padding">
             </div>
         </div>-->
-    </div>
+      </div>
+    </section>
 
-    <!-- <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                    </button>
-                    <h3 class="text-center section-padding">Ugh... dress codes?</h3>
-                    <h5>Mehndi <span class="time">1PM - 5PM</span></h5>
-                    <p>
-                        <strong>Ethnic indian wear</strong>
-                        <br>
-                        Ladies can wear something
-                        <a href="https://www.pinterest.com/ramswarooppatra/mehndi-dress-for-women/">bright & vivid</a>
-                        and gentlemen can be on
-                        their <a href="https://www.pinterest.com/ramswarooppatra/mehndi-dress-for-men/">vibrant
-                        kurtas</a> with pants or pyjamas along with an optional shawl.
-                    </p>
-                    <h5>Cocktail Night <span class="time">7PM - 12AM</span></h5>
-                    <p>
-                        <strong>Western attire</strong>
-                        <br>
-                        A semi-formal look that is contemporary & fashionable which is not too prim & proper is the best
-                        to pull off this night. You can see some pins for
-                        <a href="https://www.pinterest.com/ramswarooppatra/cocktail-night-outfit-for-women/">ladies</a>
-                        & <a href="https://www.pinterest.com/ramswarooppatra/cocktail-night-outfit-for-men/">gents</a>.
-                    </p>
-                    <h5>Wedding <span class="time">6PM-12AM</span></h5>
-                    <p>
-                        <strong>Indo-western</strong>
-                        <br>
-                        Ladies can flaunt their unconventional sarees,
-                        <a href="https://www.pinterest.com/ramswarooppatra/indo-western-lehengas/">lehengas</a>,
-                        <a href="https://www.pinterest.com/ramswarooppatra/indo-western-anarkalis/">anarkalis</a>,
-                        dresses and the list
-                        goes on whereas gentlemen can wear any kind of suit or just blazer. If you don't like to wear a
-                        suit/blazer, you can do a <a
-                            href="https://www.pinterest.com/ramswarooppatra/high-neck-jackets-for-men/">high-neck
-                        (band gala) waistcoat & shirt</a> combo.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-</section>
-
-<!-- <section id="instagram" class="section-padding">
+    <!-- <section id="instagram" class="section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -291,82 +523,106 @@
     </div>
 </section> -->
 
-<section id="eng-pics" class="section-padding">
-    <div class="container-fluid">
+    <section id="eng-pics" class="section-padding">
+      <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h3 class="header">Poze cuplu</h3>
-            </div>
+          <div class="col-md-12 text-center">
+            <h3 class="header">Poze cuplu</h3>
+          </div>
         </div>
         <div class="row">
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/pics/IMG_20210905_142740.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <img src="img/pics/IMG_20210905_142740.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/pics/IMG_20210919_125845.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <img src="img/pics/IMG_20210919_125845.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/pics/IMG_20210926_151154.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <img src="img/pics/IMG_20210926_151154.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/pics/IMG_20211016_123454.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <img src="img/pics/IMG_20211016_123454.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/pics/IMG_20220511_201902.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <img src="img/pics/IMG_20220511_201902.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/pics/IMG_20221119_132703.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <img src="img/pics/IMG_20221119_132703.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
+          <div class="col-md-2">
+            <a
+              class="fancybox"
+              rel="group"
+              href="img/pics/IMG_20210905_142740.jpg"
+            >
+              <div class="img-wrap">
+                <div class="overlay">
+                  <i class="fa fa-search"></i>
+                </div>
+                <img src="img/pics/IMG_20210905_142740.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2">
+            <a
+              class="fancybox"
+              rel="group"
+              href="img/pics/IMG_20210919_125845.jpg"
+            >
+              <div class="img-wrap">
+                <div class="overlay">
+                  <i class="fa fa-search"></i>
+                </div>
+                <img src="img/pics/IMG_20210919_125845.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2">
+            <a
+              class="fancybox"
+              rel="group"
+              href="img/pics/IMG_20210926_151154.jpg"
+            >
+              <div class="img-wrap">
+                <div class="overlay">
+                  <i class="fa fa-search"></i>
+                </div>
+                <img src="img/pics/IMG_20210926_151154.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2">
+            <a
+              class="fancybox"
+              rel="group"
+              href="img/pics/IMG_20211016_123454.jpg"
+            >
+              <div class="img-wrap">
+                <div class="overlay">
+                  <i class="fa fa-search"></i>
+                </div>
+                <img src="img/pics/IMG_20211016_123454.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2">
+            <a
+              class="fancybox"
+              rel="group"
+              href="img/pics/IMG_20220511_201902.jpg"
+            >
+              <div class="img-wrap">
+                <div class="overlay">
+                  <i class="fa fa-search"></i>
+                </div>
+                <img src="img/pics/IMG_20220511_201902.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2">
+            <a
+              class="fancybox"
+              rel="group"
+              href="img/pics/IMG_20221119_132703.jpg"
+            >
+              <div class="img-wrap">
+                <div class="overlay">
+                  <i class="fa fa-search"></i>
+                </div>
+                <img src="img/pics/IMG_20221119_132703.jpg" alt="" />
+              </div>
+            </a>
+          </div>
         </div>
-    </div>
-    <div class="container">
+      </div>
+      <div class="container">
         <div class="row hidden-lg hidden-md hidden-xs">
-            <div class="col-xs-12 section-border section-padding"></div>
+          <div class="col-xs-12 section-border section-padding"></div>
         </div>
-    </div>
-    <!--<div class="row">
+      </div>
+      <!--<div class="row">
         <div class="col-md-12">
             <div class="diamond floating-logo">
                 <img src="img/sketch-logo.png" alt="Sketch Logo">
@@ -374,93 +630,129 @@
             </div>
         </div>
     </div>-->
-</section>
+    </section>
 
-<section id="video-bg" class="hidden-sm hidden-xs">
-    <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://youtu.be/kQt5zhtmPy0',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:10, stopAt:60, opacity:1}">
-    </div>
-    <div id="video-content">
+    <section id="video-bg" class="hidden-sm hidden-xs">
+      <div
+        id="bgndVideo"
+        class="player"
+        data-property="{videoURL:'https://youtu.be/kQt5zhtmPy0',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:10, stopAt:60, opacity:1}"
+      ></div>
+      <div id="video-content">
         <h5>Săcele, Brașov</h5>
         <p>Nuntă în aer liber</p>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="map" class="section-padding">
-    <div class="text-center">
+    <section id="map" class="section-padding">
+      <div class="text-center">
         <h3>Cum ajung acolo?</h3>
-        <p>Este foarte usor de ajuns! Aveți adresa completă și hartă mai jos.</p>
-    </div>
-    <div id="map-canvas"></div>
-    <div id="map-content-wrapper" class="container pointer-events-none">
+        <p>
+          Este foarte usor de ajuns! Aveți adresa completă și hartă mai jos.
+        </p>
+      </div>
+      <div id="map-canvas"></div>
+      <div id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
-            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
-                <div class="text-center">
-                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
-                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Arată informații
-                    </div>
+          <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+            <div class="text-center">
+              <div
+                id="btn-show-content"
+                class="toggle-map-content pointer-events-auto"
+              >
+                <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Arată informații
+              </div>
+            </div>
+            <div id="map-content" class="pointer-events-auto">
+              <div class="row">
+                <div class="col-md-12">
+                  <h5><a href="https://bellavista.ro/">Bella Vista</a></h5>
+                  <p>
+                    Str. 7 Izvoare, Nr. 44, Mun. Sacele, Jud. Brasov, 505600
+                  </p>
                 </div>
-                <div id="map-content" class="pointer-events-auto">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h5><a href="https://bellavista.ro/">Bella Vista</a></h5>
-                            <p>Str. 7 Izvoare, Nr. 44, Mun. Sacele, Jud. Brasov, 505600</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-md-12" style="padding: 5px;">
-                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Arată harta</a>
-                        </div>
-                    </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-md-12" style="padding: 5px">
+                  <a class="btn btn-accent btn-small" id="btn-show-map"
+                    ><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Arată harta</a
+                  >
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="rsvp text-center" id="rsvp">
-    <div class="container">
+    <section class="rsvp text-center" id="rsvp">
+      <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h3>Ce mai aștepți, confirmă participarea?</h3>
-                <p>Ne-ar ajuta foarte mult să răspundeți la invitație cât mai curând, data limită 18 Iunie 2023.</p>
-                <p>Pentru confirmare, sunați pe Eugen sau pe Bianca.</p>
-                <p>Puteți adăuga evenimentul în calendar să vă reamintiți ușor.</p>
-                <div id="add-to-cal"></div>
-                <p>Verificați pagina înainte de eveniment pentru ultimile actualizări.</p>
-            </div>
+          <div class="col-md-12">
+            <h3>Ce mai aștepți, confirmă participarea?</h3>
+            <p>
+              Ne-ar ajuta foarte mult să răspundeți la invitație cât mai curând,
+              data limită 18 Iunie 2023.
+            </p>
+            <p>Pentru confirmare, sunați pe Eugen sau pe Bianca.</p>
+            <p>Puteți adăuga evenimentul în calendar să vă reamintiți ușor.</p>
+            <div id="add-to-cal"></div>
+            <p>
+              Verificați pagina înainte de eveniment pentru ultimile
+              actualizări.
+            </p>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<footer>
-    <div class="container">
+    <footer>
+      <div class="container">
         <div class="row">
-            <div class="col-sm-12 text-center content">
-                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Făcut de Eugen cu <span class="fa fa-heart pulse2"></span> pentru Bianca.</p>
-            </div>
+          <div class="col-sm-12 text-center content">
+            <span class="to-top-wrapper"
+              ><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a
+            ></span>
+            <p>
+              Făcut de Eugen cu <span class="fa fa-heart pulse2"></span> pentru
+              Bianca.
+            </p>
+          </div>
         </div>
-    </div>
-</footer>
-<script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
-<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/jquery.mb.YTPlayer.min.js"></script>
-<script src="js/vendor/ouical.js"></script>
-<script src="js/scripts.min.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4NEPvA03p3o2BOH1oB_FG-2jYH_jnJY0&callback=initMap"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVN6DGJ2E6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      </div>
+    </footer>
+    <script
+      src="js/vendor/jquery-1.11.2.min.js"
+      onerror="loadJsFromCDN('jquery.js')"
+    ></script>
+    <script
+      src="node_modules/waypoints/lib/jquery.waypoints.min.js"
+      onerror="loadJsFromCDN('waypoints.js')"
+    ></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/vendor/ouical.js"></script>
+    <script src="js/scripts.min.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4NEPvA03p3o2BOH1oB_FG-2jYH_jnJY0&callback=initMap"
+    ></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VVN6DGJ2E6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-VVN6DGJ2E6');
-</script>
-</body>
+      gtag("config", "G-VVN6DGJ2E6");
+    </script>
+  </body>
 </html>
