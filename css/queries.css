@@ -376,3 +376,12 @@
         padding-top: 20px;
     }
 }
+
+.ro2 {
+    /* font-weight: 600; */
+    font-size: 1.2em;
+}
+
+.ro2 p {
+    font-size: 1.1em;
+}
